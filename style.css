@@ -1,0 +1,63 @@
+.profile{
+    
+    box-shadow: 6px 6px 6px  rgba(0, 0, 0, 0.40);
+    width: 242px;
+    height: 240px;
+    aspect-ratio: 2/2;
+    border-radius: 20px;
+    
+}
+body{
+    background-color: black;
+    color: white ;
+}
+.instrument-serif-regular {
+  font-family: "Instrument Serif", serif;
+  font-weight: 10;
+  font-style: normal;
+  color: white;
+  line-height: 0.7px;
+  font-size: 50px;
+  padding-top: 40px;
+}
+.inter-font {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+.head{
+    display: grid;
+    grid-template-columns: auto 3fr;
+    gap: 50px;
+}
+.text-box {
+  display: flex;
+  flex-direction: column; 
+}
+.skill
+{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 20px;
+}
+th,td{
+    padding: 10px;
+    border-color: white;
+}
+a{
+    padding: 10px;
+    background-color: white;
+    border-radius: 5px;
+}
+ul{
+    justify-items:left;
+    padding-left: 10px;
+    padding: 2px;
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+}
+.textt{
+    text-transform: capitalize;
+}
